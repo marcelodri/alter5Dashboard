@@ -1,0 +1,74 @@
+.card-body {
+    h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        color: #13285B;
+        margin-bottom: 10px!important;
+    }
+    .tablaDatelle {
+    
+        h1 {
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 44px;
+            color: #51B6BE;
+        }
+        h5 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            color: #13285B;
+            margin-bottom: 20px;
+        }
+        .separador {
+            height: 16px;
+        }
+        .box-data-tablaDatelle {
+            border-bottom: 1px solid #e3e3e3;
+            padding: 8px 0px;
+            p {
+                margin-bottom: 0px;
+            }
+            .title-tablaDatelle{
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 16px;
+                color: #13285B;
+            }
+            .data-tablaDatelle{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 18px;
+                color: #51B6BE;
+            }
+        }
+    }
+    .box-buton {
+        margin-top: 16px;
+        .btn-setAs {
+            padding: 10px 24px;
+            max-width: 176px;
+            border: 1px solid #51B6BE;
+            box-sizing: border-box;
+            border-radius: 40px;
+            color: #51B6BE;
+            background: #fff;
+        }
+        .btn-viewInv {
+            padding: 10px 24px;
+            max-width: 176px;
+            border: 1px solid #51B6BE;
+            box-sizing: border-box;
+            border-radius: 40px;
+            color: #fff;
+            background: #51B6BE;
+        }
+        .btn-setAs:hover, .btn-viewInv:hover {
+            filter: brightness(0.9);
+        }
+    }
+}

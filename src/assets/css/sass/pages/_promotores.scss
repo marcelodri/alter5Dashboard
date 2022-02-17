@@ -1,0 +1,126 @@
+.group-btn-modelos {
+    padding: 20px 0px 0px 0px;
+    button{
+        margin-right: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #5A5A5A;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)!important;
+        padding: 8px 12px;
+    }
+
+}
+.buttonEstadoFase {
+    padding: 20px 10px 0px 0px;
+    .box-faseEstado {
+        width: 75px;
+        text-align: center;
+        padding: 8px 0px;
+        margin: 0;
+    }
+
+}
+.group-buttons-acciones {
+    padding: 20px 30px 20px 0px;
+    .row {
+        align-items: center;
+        justify-content: flex-end;
+        @include respond-below(md) {
+            flex-direction: column;
+            padding-left: 30px;
+            align-items: baseline;
+            
+        }
+    }
+    button{
+        padding: 0px 12px;
+        background: #fff;
+        border-radius: 10px;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #5A5A5A;
+        margin-right: 20px;
+        min-height: 36px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)!important;
+
+        img {
+            margin-right: 10px;
+            max-height: 15px;
+        }
+        p{
+            margin-bottom: 0px!important;
+        }
+        span{
+            margin: 10px 0px;
+            background: #51B6BE;
+            width: 25px;
+            height: 25px;
+            padding: 2px 8px;
+            border-radius: 50%;
+            color: #fff;
+            margin: 6px 0px 6px 6px;
+        }
+
+        @include respond-below(md) {
+            margin-bottom: 10px;
+        }
+
+
+    }
+    label {
+        font-weight: bold;
+        font-size: 14px;
+        color: #13285B;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        @include respond-below(md) {
+            margin-bottom: 10px;
+        }
+    }
+    button:hover {
+        filter: brightness(0.9);
+        background: #fff;
+        color: #5A5A5A;
+    }
+    .btn-secondary:not(:disabled):not(.disabled):active {
+        filter: brightness(0.9);
+        background-color: #5A5A5A;
+        border-color: #5A5A5A;
+        color: #fff;
+    }
+}
+
+.separador-vertical {
+    border-left: 3px solid #BABABA;
+    color: #F9F9F9;
+    height: 60%;
+    @include respond-below(md) {
+        border-left: 3px solid #F9F9F9;
+    }
+}
+.cont-btn-inferior {
+    border-radius: 0px 0px 10px 10px;
+    background: #F9F9F9;
+}
+.row-data {
+    .col-sm-12 {
+        p {
+            @include respond-below(md) {
+                text-align: initial;
+            }
+        }
+    }
+}
+.footer-input {
+    @include respond-below(md) {
+        display: flex;
+    }
+}
+.footer-invitaciones-btn {
+    @include respond-below(md) {
+        display: flex;
+    }
+}
