@@ -10,7 +10,7 @@ import { getThemeColor } from "./utils";
 - ColorSwitcher component remove in 'src/App.vue' file.
 - Remove multicolor section in current file
 - Uncomment the two lines below
-
+dasdsadsadsa
 import "./assets/css/sass/themes/piaf.light.blueolympic.scss";
 import "./main";
 */
