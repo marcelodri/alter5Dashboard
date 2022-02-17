@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install   asdasdsadasdasdas
+npm install   asdasdsa
 ```
 
 ### Compiles and hot-reloads for development
