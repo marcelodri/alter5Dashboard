@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install  esto es para un test
+npm install  nnaa
 ```
 
 ### Compiles and hot-reloads for development
